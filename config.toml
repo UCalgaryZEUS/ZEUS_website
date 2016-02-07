@@ -39,7 +39,7 @@ googleAnalytics = ""
 		brand = "Home"
 		services = "About"
 		portfolio = "Projects"
-		about = "History"
+		about = "Media"
 		team = "Team"
 		contact = "Contact"
 
@@ -94,35 +94,93 @@ googleAnalytics = ""
     # About section
 	[params.about]
 		title = "Media"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br>of our<br>story!"
+		subtitle = "See Team ZEUS in the media and giving back to the community through education!"
+		endpointimg = "1.jpg"
+		endpointdate = "February 7, 2016"
+		endpointtitle = "Tester"
+		endpointdescription = "Headline of Tester"
+		endpointlink = "google.ca"
+		
 
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "March 20, 2014"
+			title = "The Gauntlet"
+			description = "Engineers build a racing motorcycle"
+			link = "http://www.archive.thegauntlet.ca/story/engineers-build-racing-motorcycle"
 
 		[[params.about.events]]
 			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "March 20, 2014"
+			title = "Metro Calgary"
+			description = "‘Team Zeus’ building electric superbike at the University of Calgary"
+			link = "http://Metro Calgarynews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
 
 		[[params.about.events]]
 			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "Episode 74"
+			title = "Green Energy Futures"
+			description = "Meet Team Zeus - An electric motorbike racing team from the University of Calgary"
+			link = "http://www.greenenergyfutures.ca/episode/74-meet-team-zeus-electric-motorbike-racing-team-university-calgary"
 
 		[[params.about.events]]
 			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "May 5, 2014"
+			title = "Huffington Post"
+			description = "The University of Calgary Club That Built an Electric Motorcycle"
+			link = "http://www.huffingtonpost.ca/david-dodge/electric-motorcycles_b_5268926.html"
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "May 8, 2014"
+			title = "Telus Spark"
+			description = "'Your Inner Engineer' Night"
+			link = ""
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "July 22, 2014"
+			title = "Calgary Beacon"
+			description = "Electric racing motorcycle future of motor sports?"
+			link = "http://beaconnews.ca/calgary/2014/07/electric-racing-motorcycle-future-of-motor-sports/"
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "September 11, 2014"
+			title = "Beakerhead"
+			description = ""
+			link = ""
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "September 16, 2014"
+			title = "UToday"
+			description = "Team ZEUS unveils Zephyr superbike at national race in Utah"
+			link = "http://www.ucalgary.ca/utoday/issue/2014-09-16/team-zeus-unveils-zephyr-superbike-national-race-utah"
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "September 21, 2014"
+			title = "Metro Calgary"
+			description = "University of Calgary’s electric superbike turns heads at eMotoRacing event in Utah"
+			link = "http://Metro Calgarynews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "November 14, 2014"
+			title = "Third Academy"
+			description = "School visit to the Third Academy"
+			link = ""
+			
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "December 2, 2014"
+			title = "Inside Motorcycles"
+			description = "It's impossible not to be inspired by Team Zeus and its University of Calgary-based electric racer project"
+			link = "http://suclubs.orgsync.com/org/teamzeus/article"
 
 
 	# Team section

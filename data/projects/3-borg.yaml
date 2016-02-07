@@ -5,23 +5,25 @@ img: borg.jpg
 preview: borg-preview.jpg
 category: Prototype Motor
 description: >
+  <table border="0">
+  <tr>
+  <td width="350"></td>
+  <td width="350"></td>
+  </tr>
+  
+  <tr><td><p class="table-field">Approximate Weight</p></td>	<td><p class="table-value">10 kg</p></td></tr>
+  <tr><td><p class="table-field">Dimensions</p></td>			<td><p class="table-value">366 mm x 120 mm</p></td></tr>
+  <tr><td><p class="table-field">Voltage</p></td>				<td><p class="table-value">48 V</p></td></tr>
+  <tr><td><p class="table-field">Max Amperage</p></td>	<td><p class="table-value">375 A</p></td></tr>
+  <tr><td><p class="table-field">Power Output</p></td>	<td><p class="table-value">7 kW avg, 18 kW peak</p></td></tr>
+  
+  </table>
+  <p>
+  <br>
   After completing the mule, and after having come to the conclusion that we wanted to design our own motor for the coming race bike, we came across the Axel Borg Motor and decided to built it, in order to learn what building an electric motor is all about.  The design is based on the work of an engineer named Axel Borg (how cool a name is that?) out of Sweden.  We purchased a detailed ebook from his website and after some slight modifications, we set to work.
   <br><br>
   The initial design was an axial flux, AC, 3-phase, salient coil, permanent magnet motor that could be easily built from readily available materials, but still produce practical levels of performance.  The original motor, primarily out of wood in a backyard shop, was powerful enough to be installed in a small motorcycle and hit 90km/h.  Here are the initial promised specs, according to the book
-  <br>
-  <table border="1" cellpadding="1">
-  <tr>
-  <td width="150"></td>
-  <td width="150"></td>
-  </tr>
-  
-  <tr><td><b>Approximate Weight</b></td><td>10 kg</td></tr>
-  <tr><td><b>Dimensions</b></td><td>366 mm x 120 mm</td></tr>
-  <tr><td><b>Voltage</b></td><td>48 V</td></tr>
-  <tr><td><b>Max Amperage</b></td><td>375 A</td></tr>
-  <tr><td><b>Power Output</b></td><td>7 kW avg, 18 kW peak</td></tr>
-  
-  </table>
-  <br>
+  <br><br>
   Since we had access to a machine shop, we decided to use some more advanced materials, so we chose to go with aluminum for the rotors, due to lightweight, ease of machineability and its nonmagnetic nature, along with phenolic for for the stator.  We also chose to go with higher grade N48 Neodymium magnets, rather than the suggested N45 magnets, since the difference in price was small.  In addition to these being stronger materials than wood, we also no longer had to worry about warping and could hit much finer tolerances, allowing us to decrease the motor air-gaps, thus increasing our power density.  
+  </p>
 
