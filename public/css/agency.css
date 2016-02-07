@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: orange;
+    border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: black;
-    background-color: orange;
+    color: #fff;
+    background-color: #fed136;
 }
 
 .btn-xl:hover,
@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: orange;
+    color: #fed136;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -308,19 +308,15 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-		color: white;
-		text-shadow: -1px -1px 10px black, 1px 1px 10px black;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-		color: orange;
-		text-shadow: 0 0 10px black;
     }
 }
 

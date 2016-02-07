@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "Hugo Agency Theme"
+title = "Team ZEUS"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -36,10 +36,10 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "The Agency"
-		services = "Services"
-		portfolio = "Portfolio"
-		about = "About"
+		brand = "Home"
+		services = "About"
+		portfolio = "Projects"
+		about = "History"
 		team = "Team"
 		contact = "Contact"
 
@@ -48,32 +48,35 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
+		title = "High Performance Electric Motorcycle Racing"
+		subtitle = "Welcome to Team ZEUS!"
 		buttonText = "Tell me more"
 
 
 	# Services section
 	[params.services]
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "about"
+		subtitle = "Here at Team ZEUS, what do we even do? Click an icon to visit the team's website! TODO - revise"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-desktop"
+                title = "Software Team"
+                description = "Freakin Ossum (That's us!)"
+				link = "https://www.google.ca/"
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-bolt"
+                title = "Electrical Team"
+                description = "Description of the electrical team?"
+				link = "https://www.google.ca/"
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-cogs"
+                title = "Mechanical Team"
+                description = "We can make as many elements as we want, and pick from 100's of icons; just modify config.toml - TODO revise"
+				link = "https://www.google.ca/"
 
 	# Portfolio section
 	[params.portfolio]
@@ -81,13 +84,10 @@ googleAnalytics = ""
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "Projects"
+		subtitle = "An overview of some of our current and past projects (add or remove as many as we want! just make a yaml file in data/projects folder - TODO revise"
 
 		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
             buttonText = "Close project"
 
 
