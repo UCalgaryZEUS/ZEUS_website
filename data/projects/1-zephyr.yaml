@@ -1,28 +1,30 @@
 modalID: 1
 title: The Zephyr
-subtitle: The Zephyr is Team Zeus' first ever racing bike. With Tim Johnson as the pilot, it raced in August, 2014, at the eMotoRacing competition in Tooele, Utah.
+subtitle: The Zephyr is Team ZEUS' first ever racing bike. With Tim Johnson as the pilot, it raced in August, 2014, at the eMotoRacing competition in Tooele, Utah.
 img: zephyr.jpg
 preview: zephyr-preview.png
 category: Race Bike
 description: >
-  <table border="0" cellpadding="1">
+  <table border="0">
   <tr>
-  <td width="300"></td>
+  <td width="350"></td>
   <td width="350"></td>
   </tr>
   
-  <tr><td><b>Recorded Top Speed</b></td><td>130.7 km/h</td></tr>
-  <tr><td><b>Motor</b></td><td>AGNI 95R</td></tr>
-  <tr><td><b>Frame</b></td><td>Modified 2004 Suzuki GSX-R 600</td></tr>
-  <tr><td><b>Weight</b></td><td>420 lbs (190.5 kg)</td></tr>
-  <tr><td><b>Power</b></td><td>40 HP (30 kW)</td></tr>
-  <tr><td><b>Recorded Range</b></td><td>30 km at race speeds</td></tr>
-  <tr><td><b>Battery Type</b></td><td>Lithium Ion + Nickel Manganese Cobalt Oxide</td></tr>
-  <tr><td><b>Battery Voltage</b></td><td>98.4 V</td></tr>
-  <tr><td><b>Battery Capacity</b></td><td>6.1 kWh</td></tr>
+  <tr><td><p class="table-field">Recorded Top Speed</p></td>	<td><p class="table-value">130.7 km/h</p></td></tr>
+  <tr><td><p class="table-field">Motor</p></td>					<td><p class="table-value">AGNI 95R</p></td></tr>
+  <tr><td><p class="table-field">Frame</p></td>					<td><p class="table-value">Modified 2004 Suzuki GSX-R 600</p></td></tr>
+  <tr><td><p class="table-field">Weight</p></td>				<td><p class="table-value">420 lbs (190.5 kg)</p></td></tr>
+  <tr><td><p class="table-field">Power</p></td>					<td><p class="table-value">40 HP (30 kW)</p></td></tr>
+  <tr><td><p class="table-field">Recorded Range</td>			<td><p class="table-value">30 km at race speeds</p></td></tr>
+  <tr><td><p class="table-field">Battery Type</td>				<td><p class="table-value">Lithium Ion + Nickel Manganese Cobalt Oxide</p></td></tr>
+  <tr><td><p class="table-field">Battery Voltage</td>			<td><p class="table-value">98.4 V</p></td></tr>
+  <tr><td><p class="table-field">Battery Capacity</td>			<td><p class="table-value">6.1 kWh</p></td></tr>
   
   </table>
+  <p>
   <br>
   We started building the Zephyr in early 2013 with the purchase of our motorcycle frame. The Zephyr began life as a 2004 Suzuki GSX-R 600 which had a a fast and furious past as a gasoline powered racing bike with Calgary's Motorcycle Roadracing Association (CMRA).  We removed all the gasoline components and were left with a lightweight aluminum frame, complete with race quality suspension.
-  <br><br>
+  <br>
+  </p>
   <img src="img/portfolio/zephyr_build.jpg">

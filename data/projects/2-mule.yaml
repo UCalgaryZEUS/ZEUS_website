@@ -5,21 +5,24 @@ img: mule.jpg
 preview: mule-preview.jpg
 category: Prototype Motorcycle
 description: >
+  <table border="0">
+  <tr>
+  <td width="350"></td>
+  <td width="350"></td>
+  </tr>
+  
+  <tr><td><p class="table-field">Top Speed</p></td>		<td><p class="table-value">~20 km/h</p></td></tr>
+  <tr><td><p class="table-field">Range</p></td>			<td><p class="table-value">untested</p></td></tr>
+  <tr><td><p class="table-field">Voltage</p></td>		<td><p class="table-value">48 V</p></td></tr>
+  <tr><td><p class="table-field">Max Amperage</p></td>	<td><p class="table-value">40 A</p></td></tr>
+  <tr><td><p class="table-field">Horsepower</p></td>	<td><p class="table-value">~1.5 hp</p></td></tr>
+  
+  </table>
+  <p>
+  <br>
   Lovingly dubbed "The Mule" this motorcycle was Team Zeus' humble beginnings.  While far from a race-worthy bike, the aim here was to convert an existing gasoline motorcycle to electric using a budget of under $1000 and as little outside help as possible.  We managed to successfully pull it off, producing a fully functional electric motorcycle and learning a wealth of knowledge about how they work.
   <br><br>
   In the second phase of the project, we are upgrading the very underpowered Mule with a much more powerful motor that we are building from scratch.  Using a slightly modified blueprint from a detailed ebook, the "Axel Borg Motor" should theoritically allow the Mule to hit highway speeds.
   <br><br>
   As for future plans, the Mule will always remain as a project bike to tinker around on and for new generations of first years to learn on.
-  <table border="1" cellpadding="1">
-  <tr>
-  <td width="150"></td>
-  <td width="150"></td>
-  </tr>
-  
-  <tr><td><b>Top Speed</b></td><td>~20 km/h</td></tr>
-  <tr><td><b>Range</b></td><td>untested</td></tr>
-  <tr><td><b>Voltage</b></td><td>48 V</td></tr>
-  <tr><td><b>Max Amperage</b></td><td>40 A</td></tr>
-  <tr><td><b>Horsepower</b></td><td>~1.5 hp</td></tr>
-  
-  </table>
+  </p>

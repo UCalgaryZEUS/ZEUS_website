@@ -73,7 +73,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     background-color: #fed136;
 }
 
@@ -83,7 +83,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
-    color: #fff;
+    color: #000;
     background-color: #fec503;
 }
 
@@ -790,6 +790,21 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+	text-align: left;
+}
+
+.portfolio-modal .modal-content p.table-field {
+	margin-top: 3px;
+    margin-bottom: 3px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.portfolio-modal .modal-content p.table-value {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+	text-align: left;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -797,6 +812,7 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+	text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline {

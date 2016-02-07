@@ -2,7 +2,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Team ZEUS"
-theme = "hugo-agency-theme"
+theme = "agency"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
@@ -93,7 +93,7 @@ googleAnalytics = ""
 
     # About section
 	[params.about]
-		title = "About"
+		title = "Media"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		endpoint = "Be part<br>of our<br>story!"
 
