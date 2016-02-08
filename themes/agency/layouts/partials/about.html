@@ -9,9 +9,9 @@
         </div>
 		<div class="row">
 			<div class="col-lg-12">
-				<div align="center"><button type="button" class="btn btn-primary">Toggle Past Media</button></div>
+				<div align="center"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#media">Toggle Past Media</button></div>
 				<br>
-				<div class="collapse">
+				<div id="media" class="collapse">
 				<ul class="timeline">
 					{{ range $i, $e := .Site.Params.about.events }}
 					{{ if (eq $i 9) }}
