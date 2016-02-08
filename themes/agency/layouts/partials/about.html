@@ -14,43 +14,37 @@
 				<div class="collapse">
 				<ul class="timeline">
 					{{ range $i, $e := .Site.Params.about.events }}
+					{{ if (eq $i 9) }}
+					<br></div><div class="timeline">
+					{{ end }}
 					<li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
 						<div class="timeline-image">
+							{{ if (eq .link "") }}
 							<img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
+							{{ else }}
+							<a href="{{ .link }}">
+							<img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
+							</a>
+							{{ end }}
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<br><!-- Maybe remove this line break to allow for longer description -->
 								<h4>{{ .date }}</h4>
+								{{ if (eq .link "") }}
 								<h4 class="subheading">{{ .title }}</h4>
+								{{ else }}
+								<a href="{{ .link }}">
+								<h4 class="subheading">{{ .title }}</h4>
+								</a>
+								{{ end }}
 							</div>
 							<div class="timeline-body">
 								<p class="text-muted">{{ .description  | markdownify }}</p>
 							</div>
 						</div>
 					</li>
-					<br>
 					{{ end }}
 				</div>
-				<div class="timeline">
-					{{ with .Site.Params.about }}
-					<li class="timeline-inverted">
-						<div class="timeline-image">
-							<img class="img-circle img-responsive" src="img/about/{{ .endpointimg }}" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<br>
-								<h4>{{ .endpointdate }}</h4>
-								<h4 class="subheading">{{ .endpointtitle }}</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">{{ .endpointdescription }}</p>
-							</div>
-						</div>
-					</li>
-					{{ end }}
-					</div>
 				</ul>
 			</div>
 		</div>

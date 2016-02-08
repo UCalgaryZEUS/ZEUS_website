@@ -1,3 +1,13 @@
+{{ "<!-- Test -->" | safeHTML }}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".btn-primary").click(function(){
+        $(".collapse").collapse('toggle');
+    });
+});
+</script>
 {{ "<!-- jQuery -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/jquery.js"></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
@@ -12,14 +22,3 @@
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/agency.js"></script>
 {{ template "_internal/google_analytics.html" . }}
-
-{{ "<!-- Test -->" | safeHTML }}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-    $(".btn-primary").click(function(){
-        $(".collapse").collapse('toggle');
-    });
-});
-</script>
