@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "tmp"
 languageCode = "en-us"
 title = "Team ZEUS"
 theme = "agency"
@@ -56,7 +56,7 @@ googleAnalytics = ""
 	# Services section
 	[params.services]
 		title = "about"
-		subtitle = "Here at Team ZEUS, what do we even do? Click an icon to visit the team's website! TODO - revise"
+		subtitle = "Here at Team ZEUS, what do we even do? Click an icon to visit the team's website! TODO - add all teams, descriptions, and links"
 
         [[params.services.row]]
 
@@ -95,7 +95,7 @@ googleAnalytics = ""
 	[params.about]
 		title = "Media"
 		subtitle = "See Team ZEUS in the media and giving back to the community through education!"
-		displaycount = "9"
+		# displaycount = "9"
 		
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
@@ -173,16 +173,16 @@ googleAnalytics = ""
 
 	# Team section
 	[params.team]
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "Meet the leads of Team ZEUS!"
+		subtitle = "The amazing people who run the show."
+		description = "TODO - Add the team leads and profile pics"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			img = "default.jpg"
+			name = "Lily Saks"
+			position = "VP Electrical Engineering"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -190,9 +190,9 @@ googleAnalytics = ""
 			]
 
 		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
+			img = "default.jpg"
+			name = "Indra Prasetyo"
+			position = "Software Team Lead"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -200,9 +200,9 @@ googleAnalytics = ""
 			]
 
 		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
+			img = "default.jpg"
+			name = "Nguyen-Anh Tran"
+			position = "Site Maker-er"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -213,26 +213,57 @@ googleAnalytics = ""
 	# All the clients' logos are stored under 'static/img/logos'.
 	# Replace them with your clients's logos.
 	[[params.clients]]
-		logo = "envato.jpg"
-		link = "#"
+		logo = "1.jpg"
+		link = "http://schulich.ucalgary.ca/"
 
 	[[params.clients]]
-		logo = "designmodo.jpg"
-		link = "#"
+		logo = "2.jpg"
+		link = "http://www.enbridge.com/"
 
 	[[params.clients]]
-		logo = "themeforest.jpg"
-		link = "#"
-
+		logo = "3.jpg"
+		link = "http://www.coralhillenergy.com/"
+		
 	[[params.clients]]
-		logo = "creative-market.jpg"
-		link = "#"
-
-
+		logo = "4.jpg"
+		link = "http://www.revolveind.com/"
+		
+	[[params.clients]]
+		logo = "5.jpg"
+		link = "https://www.emworks.com/"
+		
+	[[params.clients]]
+		logo = "6.jpg"
+		link = "http://www.allseasonmotorsports.ca/"
+		
+	[[params.clients]]
+		logo = "7.jpg"
+		link = "http://www.attractivereno.com/"
+		
+	[[params.clients]]
+		logo = "8.jpg"
+		link = "http://www.humfreys.com/"
+		
+	[[params.clients]]
+		logo = "9.jpg"
+		link = "http://tipperaryspub.com/"
+		
+	[[params.clients]]
+		logo = "10.jpg"
+		link = "http://www.modernmotors.com/"
+		
+	[[params.clients]]
+		logo = "11.jpg"
+		link = "https://plus.google.com/111326624645211697911/about"
+		
+	[[params.clients]]
+		logo = "12.jpg"
+		link = "http://stanleysupply.ca/"
+		
 	# Contact section
 	[params.contact]
-		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		title = "Get Involved"
+		subtitle  = "If you're interested in becoming a sponsor, or making a donation to Team Zeus... We'd love to hear from you! Please, contact us for more details."
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
