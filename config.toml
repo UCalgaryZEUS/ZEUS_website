@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "tmp"
+baseurl = "http://nguyen-tran.github.io/"
 languageCode = "en-us"
 title = "Team ZEUS"
 theme = "agency"
@@ -41,6 +41,7 @@ googleAnalytics = ""
 		portfolio = "Projects"
 		about = "Media"
 		team = "Team"
+		clients = "Sponsors"
 		contact = "Contact"
 
 
@@ -56,28 +57,46 @@ googleAnalytics = ""
 	# Services section
 	[params.services]
 		title = "about"
-		subtitle = "Here at Team ZEUS, what do we even do? Click an icon to visit the team's website! TODO - add all teams, descriptions, and links"
+		subtitle = "Here at Team Zeus, we are all about electric motorcycle racing. We were founded in 2011 by a group of ambitious students from the University of Calgary, and have recently finished building and racing our very own 'Zephyr' at the emotoRacing competition in Utah this September.<br><br>Click on an icon to visit the team's website!<br>(NOTE: Team websites are currently under construction)"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-desktop"
                 title = "Software Team"
-                description = "Freakin Ossum (That's us!)"
-				link = "https://www.google.ca/"
+                description = "Freakin Ossum (That's us!). Unfortunately, this icon will probably be removed <i class=\"fa fa-frown-o\"></i> as we are a new subdivision of the Electrical Team."
+				link = "#"
 
             [[params.services.row.list]]
                 icon = "fa-bolt"
                 title = "Electrical Team"
-                description = "Description of the electrical team?"
-				link = "https://www.google.ca/"
+                description = "The team that designs and prototypes energy storage solutions such as battery packs as well as test and program our data acquisition equipment."
+				link = "http://suclubs.orgsync.com/org/teamzeus/ElectricalTeam"
 
             [[params.services.row.list]]
                 icon = "fa-cogs"
                 title = "Mechanical Team"
-                description = "We can make as many elements as we want, and pick from 100's of icons; just modify config.toml - TODO revise"
-				link = "https://www.google.ca/"
-
+                description = "The Mechanical Team works on a mini electric motorcycle prototype and fabricates the frame for the next generation electric motorcycle."
+				link = "http://suclubs.orgsync.com/org/teamzeus/MechTeam"
+				
+			[[params.services.row.list]]
+				icon = "fa-globe"
+				title = "External Team"
+				description = "One pillar of our club is not only to enhance the reputation of Team ZEUS at a university level, but also the reputation of the University of Calgary in the international community."
+				link = "http://suclubs.orgsync.com/org/teamzeus/ExternalTeam"
+				
+			[[params.services.row.list]]
+				icon = "fa-heartbeat"
+				title = "Internal Team"
+				description = "Human resources, leadership development, safety programs as well as technical development are taken care of by the internal activities team."
+				link = "http://suclubs.orgsync.com/org/teamzeus/InternalTeam"
+				
+			[[params.services.row.list]]
+				icon = "fa-usd"
+				title = "Business Team"
+				description = "Our budgeting and accounting team will be responsible for determining project costs, projecting our income, and keeping track of our expenditures; and the sponsorship team which takes our proposal to corporations and grant providing institutions."
+				link = "http://suclubs.orgsync.com/org/teamzeus/BusinessTeam"
+				
 	# Portfolio section
 	[params.portfolio]
 		# All projects defined in their own files. You can find example projects
@@ -85,7 +104,7 @@ googleAnalytics = ""
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Projects"
-		subtitle = "An overview of some of our current and past projects (add or remove as many as we want! just make a yaml file in data/projects folder - TODO revise"
+		subtitle = "An overview of some of our current and past projects."
 
 		[params.portfolio.modal]
             buttonText = "Close project"
@@ -94,7 +113,7 @@ googleAnalytics = ""
     # About section
 	[params.about]
 		title = "Media"
-		subtitle = "See Team ZEUS in the media and giving back to the community through education!"
+		subtitle = "See Team ZEUS in the media and giving back to the community through education!<br><br>(TODO: archive some of the posts as there are too many elements right now)"
 		# displaycount = "9"
 		
 		# The events will be listed from the top to the bottom.
@@ -174,27 +193,76 @@ googleAnalytics = ""
 	# Team section
 	[params.team]
 		title = "Meet the leads of Team ZEUS!"
-		subtitle = "The amazing people who run the show."
-		description = "TODO - Add the team leads and profile pics"
+		subtitle = "The amazing people who run the show.<br><br>(NOTE: only the email icon works right now. Need to get a list of everyone's social media they want displayed here)"
+		description = "(TODO: Update pictures and links. Possibly resize images as there are way more people than I expected for this design!)"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
 			img = "default.jpg"
+			name = "Indra Prasetyo"
+			position = "Software Team Lead"
+			social = [
+				["fa-envelope", "mailto:indra.prasetyo@calgaryscientific.com"],
+				["fa-linkedin", "#"]
+			]
+			
+		[[params.team.members]]
+			img = "default.jpg"
 			name = "Lily Saks"
 			position = "VP Electrical Engineering"
 			social = [
+				["fa-envelope", "mailto:zeusvpelectrical@gmail.com"],
 				["fa-twitter", "#"],
-				["fa-facebook", "#"],
 				["fa-linkedin", "#"]
 			]
 
 		[[params.team.members]]
 			img = "default.jpg"
-			name = "Indra Prasetyo"
-			position = "Software Team Lead"
+			name = "Fletcher Dahlman"
+			position = "VP Mechanical Engineering"
 			social = [
-				["fa-twitter", "#"],
+				["fa-envelope", "mailto:zeusvpmechanical@gmail.com"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+			
+		[[params.team.members]]
+			img = "default.jpg"
+			name = "Lauren Sas"
+			position = "VP External"
+			social = [
+				["fa-envelope", "mailto:zeusvpmechanical@gmail.com"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+			
+		[[params.team.members]]
+			img = "default.jpg"
+			name = "Annie Nguyen"
+			position = "VP Internal"
+			social = [
+				["fa-envelope", "mailto:zeusvplogistics@gmail.com"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+			
+		[[params.team.members]]
+			img = "default.jpg"
+			name = "David Atkins-Apeldoorn"
+			position = "VP Business"
+			social = [
+				["fa-envelope", "mailto:zeusvpbusiness@gmail.com"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+			
+		[[params.team.members]]
+			img = "default.jpg"
+			name = "Kyle Parrott"
+			position = "President"
+			social = [
+				["fa-envelope", "mailto:ucalgaryteamzeus@gmail.com"],
 				["fa-facebook", "#"],
 				["fa-linkedin", "#"]
 			]
@@ -202,63 +270,66 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "default.jpg"
 			name = "Nguyen-Anh Tran"
-			position = "Site Maker-er"
+			position = "Web Developer (I know I'm not a team lead)"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-envelope", "mailto:nguyen.tran@outlook.com"],
+				["fa-linkedin", "https://ca.linkedin.com/in/nguyen-anh-tran-13536184"]
 			]
 
 	# Client section
 	# All the clients' logos are stored under 'static/img/logos'.
 	# Replace them with your clients's logos.
-	[[params.clients]]
-		logo = "1.jpg"
-		link = "http://schulich.ucalgary.ca/"
+	[params.clients]
+		title = "Sponsors"
+		subtitle = "None of this would be possible without help from our generous sponsors. Thank you for supporting us!"
+		
+		[[params.clients.sponsors]]
+			logo = "1.jpg"
+			link = "http://schulich.ucalgary.ca/"
 
-	[[params.clients]]
-		logo = "2.jpg"
-		link = "http://www.enbridge.com/"
+		[[params.clients.sponsors]]
+			logo = "2.jpg"
+			link = "http://www.enbridge.com/"
 
-	[[params.clients]]
-		logo = "3.jpg"
-		link = "http://www.coralhillenergy.com/"
-		
-	[[params.clients]]
-		logo = "4.jpg"
-		link = "http://www.revolveind.com/"
-		
-	[[params.clients]]
-		logo = "5.jpg"
-		link = "https://www.emworks.com/"
-		
-	[[params.clients]]
-		logo = "6.jpg"
-		link = "http://www.allseasonmotorsports.ca/"
-		
-	[[params.clients]]
-		logo = "7.jpg"
-		link = "http://www.attractivereno.com/"
-		
-	[[params.clients]]
-		logo = "8.jpg"
-		link = "http://www.humfreys.com/"
-		
-	[[params.clients]]
-		logo = "9.jpg"
-		link = "http://tipperaryspub.com/"
-		
-	[[params.clients]]
-		logo = "10.jpg"
-		link = "http://www.modernmotors.com/"
-		
-	[[params.clients]]
-		logo = "11.jpg"
-		link = "https://plus.google.com/111326624645211697911/about"
-		
-	[[params.clients]]
-		logo = "12.jpg"
-		link = "http://stanleysupply.ca/"
+		[[params.clients.sponsors]]
+			logo = "3.jpg"
+			link = "http://www.coralhillenergy.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "4.jpg"
+			link = "http://www.revolveind.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "5.jpg"
+			link = "https://www.emworks.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "6.jpg"
+			link = "http://www.allseasonmotorsports.ca/"
+			
+		[[params.clients.sponsors]]
+			logo = "7.jpg"
+			link = "http://www.attractivereno.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "8.jpg"
+			link = "http://www.humfreys.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "9.jpg"
+			link = "http://tipperaryspub.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "10.jpg"
+			link = "http://www.modernmotors.com/"
+			
+		[[params.clients.sponsors]]
+			logo = "11.jpg"
+			link = "https://plus.google.com/111326624645211697911/about"
+			
+		[[params.clients.sponsors]]
+			logo = "12.jpg"
+			link = "http://stanleysupply.ca/"
 		
 	# Contact section
 	[params.contact]
@@ -280,13 +351,13 @@ googleAnalytics = ""
 			warning = "Please enter your phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *"
+			text = "Your Message *(NOTE: No email is currently set to receive these emails, will revise when site is ready for deployment!)"
 			warning = "Please enter a message."
 
 
 	# Footer section
 	[params.footer]
-		copyright = "Published under the Apache License 2.0."
+		copyright = "TODO: Copyright information here."
 
 		[[params.footer.social]]
 			icon = "fa-twitter"

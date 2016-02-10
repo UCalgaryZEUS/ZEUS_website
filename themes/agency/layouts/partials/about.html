@@ -22,7 +22,7 @@
 							{{ if (eq .link "") }}
 							<img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
 							{{ else }}
-							<a href="{{ .link }}">
+							<a href="{{ .link }}" target="_blank">
 							<img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
 							</a>
 							{{ end }}
@@ -33,7 +33,7 @@
 								{{ if (eq .link "") }}
 								<h4 class="subheading">{{ .title }}</h4>
 								{{ else }}
-								<a href="{{ .link }}">
+								<a href="{{ .link }}" target="_blank">
 								<h4 class="subheading">{{ .title }}</h4>
 								</a>
 								{{ end }}

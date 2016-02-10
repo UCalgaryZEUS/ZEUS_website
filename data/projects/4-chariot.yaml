@@ -5,4 +5,23 @@ img: chariot.jpg
 preview: IGM-A1.png
 category: Using the SPAN IGM A1
 description: >
-  TODO - describe chariot
+  <table border="0">
+  <tr>
+  <td width="350"></td>
+  <td width="350"></td>
+  </tr>
+  
+  <tr><td><p class="table-field">Recorded Top Speed</p></td>	<td><p class="table-value">349 km/h\*</p></td></tr>
+  <tr><td><p class="table-field">Horsepower</p></td>			<td><p class="table-value">903 hp\*</p></td></tr>
+  <tr><td><p class="table-field">Frame</p></td>					<td><p class="table-value">Chair found in Engineering Block B basement</p></td></tr>
+  <tr><td><p class="table-field">Weight</p></td>				<td><p class="table-value">40 lbs</p></td></tr>
+  <tr><td><p class="table-field">Modifications</p></td>			<td><p class="table-value">Drilled a SPAN IGM A1 into the seat</p></td></tr>
+  <tr><td><p class="table-field">Battery</td>					<td><p class="table-value">12 V, 5.6 Ah</p></td></tr>
+  
+  </table>
+  <p>
+  <br>
+  This makeshift vehicle dubbed <i>"The Chariot"</i> was made to test the NovAtel equipment we received. It was used as a dummy to setup a Raspberry Pi and automate data collection when powered on. Eventually, we will have to retire The Chariot to mount the SPAN IGM A1 (a $36,000 accelerometer that records speed and acceleration down to the <i>nanosecond!</i>) on The Zephyr, our electric race bike.
+  <br><br>
+  * <i>estimates may be inaccurate</i>
+  </p>
