@@ -1,0 +1,8 @@
+img: default.jpg
+name: Lauren Sas
+position: VP External
+social: [
+			["fa-envelope", "mailto:zeusvpmechanical@gmail.com"],
+			["fa-facebook", "#"],
+			["fa-linkedin", "#"]
+		]

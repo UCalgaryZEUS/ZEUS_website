@@ -1,0 +1,8 @@
+img: default.jpg
+name: Annie Nguyen
+position: VP Internal
+social: [
+			["fa-envelope", "mailto:zeusvplogistics@gmail.com"],
+			["fa-facebook", "#"],
+			["fa-linkedin", "#"]
+		]

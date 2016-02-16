@@ -1,0 +1,8 @@
+img: default.jpg
+name: Kyle Parrott
+position: President
+social: [
+			["fa-envelope", "mailto:ucalgaryteamzeus@gmail.com"],
+			["fa-facebook", "#"],
+			["fa-linkedin", "#"]
+		]

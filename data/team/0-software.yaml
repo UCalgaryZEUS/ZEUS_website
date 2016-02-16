@@ -1,0 +1,7 @@
+img: default.jpg
+name: Indra Prasetyo
+position: Software Team Lead
+social: [
+			["fa-envelope", "mailto:indra.prasetyo@calgaryscientific.com"],
+			["fa-linkedin", "#"]
+		]

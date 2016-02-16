@@ -58,7 +58,7 @@ googleAnalytics = ""
 	[params.services]
 		title = "about"
 		subtitle = "Here at Team Zeus, we are all about electric motorcycle racing. We were founded in 2011 by a group of ambitious students from the University of Calgary, and have recently finished building and racing our very own 'Zephyr' at the emotoRacing competition in Utah this September.<br><br>Click on an icon to visit the team's website!<br>(NOTE: Team websites are currently under construction)"
-
+	# Delete Section
         [[params.services.row]]
 
             [[params.services.row.list]]
