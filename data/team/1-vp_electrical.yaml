@@ -1,8 +1,3 @@
 img: default.jpg
 name: Lily Saks
 position: VP Electrical Engineering
-social: [
-			["fa-envelope", "mailto:zeusvpelectrical@gmail.com"],
-			["fa-twitter", "#"],
-			["fa-linkedin", "#"]
-		]

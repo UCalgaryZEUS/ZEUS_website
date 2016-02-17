@@ -31,7 +31,7 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "nguyen.tran@outlook.com"
 
 
 	# Navigation
@@ -113,7 +113,7 @@ googleAnalytics = ""
     # About section
 	[params.about]
 		title = "Media"
-		subtitle = "See Team ZEUS in the media and giving back to the community through education!<br><br>(TODO: archive some of the posts as there are too many elements right now)"
+		subtitle = "See Team ZEUS in the media and giving back to the community through education!<br><br>(TODO: archive older posts, reverse order)"
 		# displaycount = "9"
 		
 		# The events will be listed from the top to the bottom.
@@ -131,7 +131,7 @@ googleAnalytics = ""
 			date = "March 20, 2014"
 			title = "Metro Calgary"
 			description = "‘Team Zeus’ building electric superbike at the University of Calgary"
-			link = "http://Metro Calgarynews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
+			link = "http://metronews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
 
 		[[params.about.events]]
 			img = "3.jpg"
@@ -173,7 +173,7 @@ googleAnalytics = ""
 			date = "September 21, 2014"
 			title = "Metro Calgary"
 			description = "University of Calgary’s electric superbike turns heads at eMotoRacing event in Utah"
-			link = "http://Metro Calgarynews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
+			link = "http://metronews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
 			
 		[[params.about.events]]
 			img = "10.jpg"
@@ -351,7 +351,7 @@ googleAnalytics = ""
 			warning = "Please enter your phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *(NOTE: No email is currently set to receive these emails, will revise when site is ready for deployment!)"
+			text = "Your Message *"
 			warning = "Please enter a message."
 
 

@@ -1,8 +1,3 @@
 img: default.jpg
 name: David Atkins-Apeldoorn
 position: VP Business
-social: [
-			["fa-envelope", "mailto:zeusvpbusiness@gmail.com"],
-			["fa-facebook", "#"],
-			["fa-linkedin", "#"]
-		]
