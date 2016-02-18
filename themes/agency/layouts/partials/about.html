@@ -1,58 +1,24 @@
-{{ "<!-- About Section -->" | safeHTML }}
-<script type="text/javascript">
-	function mediaShow() {
-		show.style.display = "none";
-	}
-</script>
+{{ "<!-- About -->" | safeHTML }}
 <section id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-				<h2 class="section-heading">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</h2>
-				<ul class="list-inline social-buttons">
-					{{ with .Site.Data.media.social.links }}
-						{{ range .social }}
-						<li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
-						{{ end }}
-					{{ end }}
-				</ul>
+                <h2 class="section-heading">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</h2>
                 <h3 class="section-subheading text-muted">{{ with .Site.Params.about.subtitle }}{{ . | markdownify }}{{ end }}</h3>
             </div>
         </div>
-		<div class="row">
-			<div class="col-lg-12">
-				<ul class="timeline">
-					{{ range $i, $e := .Site.Params.about.events }}
-					<li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
-						<div class="timeline-image">
-							<a href="{{ .link }}" target="_blank">
-								<img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
-							</a>
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4><br>{{ .date }}</h4>
-								<a href="{{ .link }}" target="_blank">
-									<h4 class="subheading">{{ .title }}</h4>
-								</a>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">{{ .description  | markdownify }}</p>
-							</div>
-						</div>
-					</li>
-					{{ if (eq $i 0) }}
-						<div align="center">
-							<button id="show" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#media" onclick="mediaShow()">Show Past Media</button>
-						</div>
-						<div id="media" class="collapse">
-							<div class="timeline">
-					{{ end }}
-					{{ end }}
-							</div>
-						</div>
-				</ul>
-			</div>
-		</div>
+
+        <div class="row text-center">
+			{{ range .Site.Data.about }}
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">{{ .title }}</h4>
+                <p class="text-muted">{{ .description | markdownify }}</p>
+            </div>
+			{{ end }}
+        </div>        
     </div>
 </section>

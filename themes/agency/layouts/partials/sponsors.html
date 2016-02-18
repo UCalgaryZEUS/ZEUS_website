@@ -1,5 +1,5 @@
 {{ "<!-- Clients Aside -->" | safeHTML }}
-<section id="clients" class="clients">
+<section id="sponsors" class="clients">
     <div class="container">
         <div class="row">
 			<div class="col-lg-12 text-center">
@@ -11,7 +11,7 @@
             {{ range .Site.Params.clients.sponsors }}
             <div class="col-md-3 col-sm-6">
                 <a href="{{ .link }}" target="_blank">
-                    <img src="img/logos/{{ .logo }}" class="img-responsive img-client" alt="">
+                    <img src="img/sponsors/{{ .logo }}" class="img-responsive img-client" alt="">
                 </a>
             </div>
             {{ end }}

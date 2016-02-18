@@ -15,10 +15,10 @@ googleAnalytics = ""
 	# for more icons. The icons are represented by their corresponding
 	# CSS class.
 
-	# To provide some metadata for search engines feel free to add a few
+	# To provide some metadata for search engines feel free to add some
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Team ZEUS"
+	description = "University of Calgary, Team ZEUS - Electric Motorsports"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -37,11 +37,11 @@ googleAnalytics = ""
 	# Navigation
 	[params.navigation]
 		brand = "Home"
-		services = "About"
-		portfolio = "Projects"
-		about = "Media"
+		about = "About"
+		projects = "Projects"
+		media = "Media"
 		team = "Team"
-		clients = "Sponsors"
+		sponsors = "Sponsors"
 		contact = "Contact"
 
 
@@ -54,135 +54,94 @@ googleAnalytics = ""
 		buttonText = "Tell me more"
 
 
-	# Services section
-	[params.services]
+	# About section
+	[params.about]
 		title = "about"
 		subtitle = "Here at Team Zeus, we are all about electric motorcycle racing. We were founded in 2011 by a group of ambitious students from the University of Calgary, and have recently finished building and racing our very own 'Zephyr' at the emotoRacing competition in Utah this September.<br><br>Click on an icon to visit the team's website!<br>(NOTE: Team websites are currently under construction)"
-	# Delete Section
-        [[params.services.row]]
+	
 
-            [[params.services.row.list]]
-                icon = "fa-desktop"
-                title = "Software Team"
-                description = "Freakin Ossum (That's us!). Unfortunately, this icon will probably be removed <i class=\"fa fa-frown-o\"></i> as we are a new subdivision of the Electrical Team."
-				link = "#"
-
-            [[params.services.row.list]]
-                icon = "fa-bolt"
-                title = "Electrical Team"
-                description = "The team that designs and prototypes energy storage solutions such as battery packs as well as test and program our data acquisition equipment."
-				link = "http://suclubs.orgsync.com/org/teamzeus/ElectricalTeam"
-
-            [[params.services.row.list]]
-                icon = "fa-cogs"
-                title = "Mechanical Team"
-                description = "The Mechanical Team works on a mini electric motorcycle prototype and fabricates the frame for the next generation electric motorcycle."
-				link = "http://suclubs.orgsync.com/org/teamzeus/MechTeam"
-				
-			[[params.services.row.list]]
-				icon = "fa-globe"
-				title = "External Team"
-				description = "One pillar of our club is not only to enhance the reputation of Team ZEUS at a university level, but also the reputation of the University of Calgary in the international community."
-				link = "http://suclubs.orgsync.com/org/teamzeus/ExternalTeam"
-				
-			[[params.services.row.list]]
-				icon = "fa-heartbeat"
-				title = "Internal Team"
-				description = "Human resources, leadership development, safety programs as well as technical development are taken care of by the internal activities team."
-				link = "http://suclubs.orgsync.com/org/teamzeus/InternalTeam"
-				
-			[[params.services.row.list]]
-				icon = "fa-usd"
-				title = "Business Team"
-				description = "Our budgeting and accounting team will be responsible for determining project costs, projecting our income, and keeping track of our expenditures; and the sponsorship team which takes our proposal to corporations and grant providing institutions."
-				link = "http://suclubs.orgsync.com/org/teamzeus/BusinessTeam"
-				
-	# Portfolio section
-	[params.portfolio]
-		# All projects defined in their own files. You can find example projects
-		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-		# at the root of this Hugo site.
-		# For more informtion take a look at the README.
+	# Projects section
+	[params.projects]
+		# All projects defined in their own files in data/projects
 		title = "Projects"
 		subtitle = "An overview of some of our current and past projects."
 
-		[params.portfolio.modal]
+		[params.projects.modal]
             buttonText = "Close project"
 
 
-    # About section
-	[params.about]
+    # Media section
+	[params.media]
 		title = "Media"
 		subtitle = "See Team ZEUS in the media and giving back to the community through education!<br><br>(TODO: archive older posts, reverse order)"
-		# displaycount = "9"
 		
 		# The events will be listed from the top to the bottom.
-		# All images are stored under 'static/img/about'.
+		# All images are stored under 'static/img/media'.
 		# Replace them with your own.
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "1.jpg"
 			date = "March 20, 2014"
 			title = "The Gauntlet"
 			description = "Engineers build a racing motorcycle"
 			link = "http://www.archive.thegauntlet.ca/story/engineers-build-racing-motorcycle"
 
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "2.jpg"
 			date = "March 20, 2014"
 			title = "Metro Calgary"
 			description = "‘Team Zeus’ building electric superbike at the University of Calgary"
 			link = "http://metronews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
 
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "3.jpg"
 			date = "Episode 74"
 			title = "Green Energy Futures"
 			description = "Meet Team Zeus - An electric motorbike racing team from the University of Calgary"
 			link = "http://www.greenenergyfutures.ca/episode/74-meet-team-zeus-electric-motorbike-racing-team-university-calgary"
 
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "4.jpg"
 			date = "May 5, 2014"
 			title = "Huffington Post"
 			description = "The University of Calgary Club That Built an Electric Motorcycle"
 			link = "http://www.huffingtonpost.ca/david-dodge/electric-motorcycles_b_5268926.html"
 			
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "5.jpg"
 			date = "May 8, 2014"
 			title = "Telus Spark"
 			description = "'Your Inner Engineer' Night"
 			link = ""
 			
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "7.jpg"
 			date = "September 11, 2014"
 			title = "Beakerhead"
 			description = ""
 			link = ""
 			
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "8.jpg"
 			date = "September 16, 2014"
 			title = "UToday"
 			description = "Team ZEUS unveils Zephyr superbike at national race in Utah"
 			link = "http://www.ucalgary.ca/utoday/issue/2014-09-16/team-zeus-unveils-zephyr-superbike-national-race-utah"
 			
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "9.jpg"
 			date = "September 21, 2014"
 			title = "Metro Calgary"
 			description = "University of Calgary’s electric superbike turns heads at eMotoRacing event in Utah"
 			link = "http://metronews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
 			
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "10.jpg"
 			date = "November 14, 2014"
 			title = "Third Academy"
 			description = "School visit to the Third Academy"
 			link = ""
 			
-		[[params.about.events]]
+		[[params.media.events]]
 			img = "11.jpg"
 			date = "December 2, 2014"
 			title = "Inside Motorcycles"
@@ -193,88 +152,9 @@ googleAnalytics = ""
 	# Team section
 	[params.team]
 		title = "Meet the leads of Team ZEUS!"
-		subtitle = "The amazing people who run the show.<br><br>(NOTE: only the email icon works right now. Need to get a list of everyone's social media they want displayed here)"
+		subtitle = "The amazing people who run the show."
 		description = "(TODO: Update pictures and links. Possibly resize images as there are way more people than I expected for this design!)"
-
-		# All team member's pictures are stored under 'static/img/team'.
-		# Replace them with your own too.
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Indra Prasetyo"
-			position = "Software Team Lead"
-			social = [
-				["fa-envelope", "mailto:indra.prasetyo@calgaryscientific.com"],
-				["fa-linkedin", "#"]
-			]
-			
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Lily Saks"
-			position = "VP Electrical Engineering"
-			social = [
-				["fa-envelope", "mailto:zeusvpelectrical@gmail.com"],
-				["fa-twitter", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Fletcher Dahlman"
-			position = "VP Mechanical Engineering"
-			social = [
-				["fa-envelope", "mailto:zeusvpmechanical@gmail.com"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-			
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Lauren Sas"
-			position = "VP External"
-			social = [
-				["fa-envelope", "mailto:zeusvpmechanical@gmail.com"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-			
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Annie Nguyen"
-			position = "VP Internal"
-			social = [
-				["fa-envelope", "mailto:zeusvplogistics@gmail.com"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-			
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "David Atkins-Apeldoorn"
-			position = "VP Business"
-			social = [
-				["fa-envelope", "mailto:zeusvpbusiness@gmail.com"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-			
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Kyle Parrott"
-			position = "President"
-			social = [
-				["fa-envelope", "mailto:ucalgaryteamzeus@gmail.com"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "default.jpg"
-			name = "Nguyen-Anh Tran"
-			position = "Web Developer (I know I'm not a team lead)"
-			social = [
-				["fa-envelope", "mailto:nguyen.tran@outlook.com"],
-				["fa-linkedin", "https://ca.linkedin.com/in/nguyen-anh-tran-13536184"]
-			]
+	
 
 	# Client section
 	# All the clients' logos are stored under 'static/img/logos'.
