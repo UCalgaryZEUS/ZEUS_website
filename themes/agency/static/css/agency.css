@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 5px;
     }
 
     .navbar-default.navbar-shrink {
@@ -782,26 +782,42 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 50px;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-	position: absolute;
-    left: 50%;
-	top: 0%;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	transform: translate(-50%);
+@media(min-width:768px) {
+	.portfolio-modal .modal-content {
+		padding: 100px 0;
+		min-height: 100%;
+		border: 0;
+		border-radius: 50px;
+		text-align: center;
+		background-clip: border-box;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+@media(min-width:992px) {
+	.portfolio-modal .modal-content {
+		padding: 100px 0;
+		min-height: 100%;
+		border: 0;
+		border-radius: 50px;
+		text-align: center;
+		background-clip: border-box;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		position: absolute;
+		left: 50%;
+		top: 0%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		transform: translate(-50%);
+	}
 }
 
 .portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 3em;
 }
 
 .portfolio-modal .modal-content p {
@@ -840,39 +856,41 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
+@media(min-width:768px) {
+	.portfolio-modal .close-modal {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		width: 75px;
+		height: 75px;
+		background-color: transparent;
+		cursor: pointer;
+	}
 
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
+	.portfolio-modal .close-modal:hover {
+		opacity: .3;
+	}
 
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
+	.portfolio-modal .close-modal .lr {
+		z-index: 1051;
+		width: 1px;
+		height: 75px;
+		margin-left: 35px;
+		background-color: #222;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
 
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+	.portfolio-modal .close-modal .lr .rl {
+		z-index: 1052;
+		width: 1px;
+		height: 75px;
+		background-color: #222;
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
 }
 
 .portfolio-modal .modal-backdrop {

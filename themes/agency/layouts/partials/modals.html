@@ -16,7 +16,9 @@
                         <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
                         <img class="img-responsive img-centered" src="img/projects/{{ .img }}" alt="">
                         <p>{{ .description | markdownify }}</p>
-                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>{{ with $.Site.Params.projects.modal.buttonText }}{{.}}{{ end }}</button>
+						<div style="text-align: center">
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>{{ with $.Site.Params.projects.modal.buttonText }}{{.}}{{ end }}</button>
+						</div>
                     </div>
                 </div>
             </div>
