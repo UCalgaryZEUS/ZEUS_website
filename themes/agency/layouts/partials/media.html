@@ -1,7 +1,12 @@
 {{ "<!-- Media Section -->" | safeHTML }}
 <script type="text/javascript">
-	function mediaShow() {
-		show.style.display = "none";
+	function mediaButton(button) {
+		if (button.firstChild.data == "Show More") {
+			button.firstChild.data = "Show Less";
+		}
+		else {
+			button.firstChild.data = "Show More";
+		}
 	}
 </script>
 <section id="media" class="bg-light-gray">
@@ -12,7 +17,7 @@
 				<ul class="list-inline social-buttons">
 					{{ with .Site.Data.media.social.links }}
 						{{ range .social }}
-						<li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+						<li><a href="{{ index . 1 }}" target="_blank"><i class="fa {{ index . 0 }}"></i></a></li>
 						{{ end }}
 					{{ end }}
 				</ul>
@@ -42,14 +47,15 @@
 						</div>
 					</li>
 					{{ if (eq $i 0) }}
-						<div align="center">
-							<button id="show" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#mediaEvents" onclick="mediaShow()">Show Past Media</button>
-						</div>
 						<div id="mediaEvents" class="collapse">
 							<div class="timeline">
 					{{ end }}
 					{{ end }}
 							</div>
+							<br><br>
+						</div>
+						<div align="center">
+							<button id="hide" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#mediaEvents" onclick="mediaButton(this)">Show More</button>
 						</div>
 				</ul>
 			</div>

@@ -34,7 +34,7 @@ googleAnalytics = ""
 	email = "nguyen.tran@outlook.com"
 
 
-	# Navigation
+	# Navigation Bar
 	[params.navigation]
 		brand = "Home"
 		about = "About"
@@ -45,66 +45,70 @@ googleAnalytics = ""
 		contact = "Contact"
 
 
-	# Hero section
+	# Hero Section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "High Performance Electric Motorcycle Racing"
+		title = "Electric Motorsports"
 		subtitle = "Welcome to Team ZEUS!"
 		buttonText = "Tell me more"
 
 
-	# About section
+	# About Section
 	[params.about]
 		title = "about"
-		subtitle = "Here at Team Zeus, we are all about electric motorcycle racing. We were founded in 2011 by a group of ambitious students from the University of Calgary, and have recently finished building and racing our very own 'Zephyr' at the emotoRacing competition in Utah this September.<br><br>Click on an icon to visit the team's website!<br>(NOTE: Team websites are currently under construction)"
+		subtitle = "Here at Team Zeus, we are all about electric motorcycle racing. We were founded in 2011 by a group of ambitious students from the University of Calgary, and have recently finished building and racing our very own 'Zephyr' at the emotoRacing competition in Utah this September."
 	
 
-	# Projects section
+	# Projects Section
 	[params.projects]
-		# All projects defined in their own files in data/projects
 		title = "Projects"
 		subtitle = "An overview of some of our current and past projects."
-
-		[params.projects.modal]
-            buttonText = "Close project"
+		closeButton = " Close project"
 
 
-    # Media section
+    # Media Section
+	# Need to figure out a way to make it easy to order elements...
 	[params.media]
 		title = "Media"
-		subtitle = "See Team ZEUS in the media and giving back to the community through education!<br><br>(TODO: archive older posts, reverse order)"
+		subtitle = "See Team ZEUS in the media and giving back to the community through education!"
 		
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/media'.
-		# Replace them with your own.
 		[[params.media.events]]
-			img = "1.jpg"
-			date = "March 20, 2014"
-			title = "The Gauntlet"
-			description = "Engineers build a racing motorcycle"
-			link = "http://www.archive.thegauntlet.ca/story/engineers-build-racing-motorcycle"
+			img = "11.jpg"
+			date = "December 2, 2014"
+			title = "Inside Motorcycles"
+			description = "It's impossible not to be inspired by Team Zeus and its University of Calgary-based electric racer project"
+			link = "http://suclubs.orgsync.com/org/teamzeus/article"
+			
+		[[params.media.events]]
+			img = "10.jpg"
+			date = "November 14, 2014"
+			title = "Third Academy"
+			description = "School visit to the Third Academy"
+			link = ""
 
 		[[params.media.events]]
-			img = "2.jpg"
-			date = "March 20, 2014"
+			img = "9.jpg"
+			date = "September 21, 2014"
 			title = "Metro Calgary"
-			description = "‘Team Zeus’ building electric superbike at the University of Calgary"
-			link = "http://metronews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
+			description = "University of Calgary’s electric superbike turns heads at eMotoRacing event in Utah"
+			link = "http://metronews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
 
 		[[params.media.events]]
-			img = "3.jpg"
-			date = "Episode 74"
-			title = "Green Energy Futures"
-			description = "Meet Team Zeus - An electric motorbike racing team from the University of Calgary"
-			link = "http://www.greenenergyfutures.ca/episode/74-meet-team-zeus-electric-motorbike-racing-team-university-calgary"
+			img = "8.jpg"
+			date = "September 16, 2014"
+			title = "UToday"
+			description = "Team ZEUS unveils Zephyr superbike at national race in Utah"
+			link = "http://www.ucalgary.ca/utoday/issue/2014-09-16/team-zeus-unveils-zephyr-superbike-national-race-utah"
 
 		[[params.media.events]]
-			img = "4.jpg"
-			date = "May 5, 2014"
-			title = "Huffington Post"
-			description = "The University of Calgary Club That Built an Electric Motorcycle"
-			link = "http://www.huffingtonpost.ca/david-dodge/electric-motorcycles_b_5268926.html"
+			img = "7.jpg"
+			date = "September 11, 2014"
+			title = "Beakerhead"
+			description = ""
+			link = ""
 			
 		[[params.media.events]]
 			img = "5.jpg"
@@ -114,54 +118,46 @@ googleAnalytics = ""
 			link = ""
 			
 		[[params.media.events]]
-			img = "7.jpg"
-			date = "September 11, 2014"
-			title = "Beakerhead"
-			description = ""
-			link = ""
+			img = "4.jpg"
+			date = "May 5, 2014"
+			title = "Huffington Post"
+			description = "The University of Calgary Club That Built an Electric Motorcycle"
+			link = "http://www.huffingtonpost.ca/david-dodge/electric-motorcycles_b_5268926.html"
 			
 		[[params.media.events]]
-			img = "8.jpg"
-			date = "September 16, 2014"
-			title = "UToday"
-			description = "Team ZEUS unveils Zephyr superbike at national race in Utah"
-			link = "http://www.ucalgary.ca/utoday/issue/2014-09-16/team-zeus-unveils-zephyr-superbike-national-race-utah"
+			img = "3.jpg"
+			date = "Episode 74"
+			title = "Green Energy Futures"
+			description = "Meet Team Zeus - An electric motorbike racing team from the University of Calgary"
+			link = "http://www.greenenergyfutures.ca/episode/74-meet-team-zeus-electric-motorbike-racing-team-university-calgary"
 			
 		[[params.media.events]]
-			img = "9.jpg"
-			date = "September 21, 2014"
+			img = "2.jpg"
+			date = "March 20, 2014"
 			title = "Metro Calgary"
-			description = "University of Calgary’s electric superbike turns heads at eMotoRacing event in Utah"
-			link = "http://metronews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
+			description = "‘Team Zeus’ building electric superbike at the University of Calgary"
+			link = "http://metronews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
 			
 		[[params.media.events]]
-			img = "10.jpg"
-			date = "November 14, 2014"
-			title = "Third Academy"
-			description = "School visit to the Third Academy"
-			link = ""
-			
-		[[params.media.events]]
-			img = "11.jpg"
-			date = "December 2, 2014"
-			title = "Inside Motorcycles"
-			description = "It's impossible not to be inspired by Team Zeus and its University of Calgary-based electric racer project"
-			link = "http://suclubs.orgsync.com/org/teamzeus/article"
+			img = "1.jpg"
+			date = "March 20, 2014"
+			title = "The Gauntlet"
+			description = "Engineers build a racing motorcycle"
+			link = "http://www.archive.thegauntlet.ca/story/engineers-build-racing-motorcycle"
 
 
-	# Team section
+	# Team Section
 	[params.team]
 		title = "Meet the leads of Team ZEUS!"
 		subtitle = "The amazing people who run the show."
-		description = "(TODO: Update pictures and links. Possibly resize images as there are way more people than I expected for this design!)"
 	
 
-	# Client section
-	# All the clients' logos are stored under 'static/img/logos'.
-	# Replace them with your clients's logos.
+	# Sponsor Section
+	# All the sponsors' logos are stored under 'static/img/sponsors'.
 	[params.clients]
 		title = "Sponsors"
 		subtitle = "None of this would be possible without help from our generous sponsors. Thank you for supporting us!"
+		donateButton = "Support us"
 		
 		[[params.clients.sponsors]]
 			logo = "1.jpg"
@@ -211,6 +207,7 @@ googleAnalytics = ""
 			logo = "12.jpg"
 			link = "http://stanleysupply.ca/"
 		
+	
 	# Contact section
 	[params.contact]
 		title = "Get Involved"
@@ -235,26 +232,23 @@ googleAnalytics = ""
 			warning = "Please enter a message."
 
 
+	
 	# Footer section
 	[params.footer]
-		copyright = "TODO: Copyright information here."
+		copyright = "Copyright (C) 2016 by Team ZEUS"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
+			link = "https://twitter.com/UCalgaryZEUS"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "#"
+			link = "https://www.facebook.com/ucalgaryteamzeus"
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
-			link = "#"
+			link = "https://www.linkedin.com/company/team-zeus"
 
 		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
-
-		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+			text = "Schulich School of Engineering"
+			link = "http://schulich.ucalgary.ca/"
