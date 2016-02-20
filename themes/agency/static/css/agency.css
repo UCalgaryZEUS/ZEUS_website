@@ -514,6 +514,7 @@ section h3.section-subheading {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
+	color: black;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -822,7 +823,6 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
-	text-align: left;
 }
 
 .portfolio-modal .modal-content p.table-field {
@@ -918,4 +918,16 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+@media(min-width:767px) {
+	.my-button {
+		text-align: left;
+	}
+}
+
+@media(min-width:768px) {
+	.my-button {
+		text-align: center;
+	}
 }

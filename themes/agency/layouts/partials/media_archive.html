@@ -1,0 +1,43 @@
+{{ "<!-- Media Event Archive -->" | safeHTML }}
+<div class="portfolio-modal modal fade" id="mediaArchive" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+					<ul class="timeline">
+						{{ range $j, $e := sort .Site.Data.media "date" "desc" }}
+						<li {{ if (not (modBool $j 2)) }}class="timeline-inverted"{{ end }}>
+							<div class="timeline-image">
+								<a href="{{ .link }}" target="_blank">
+									<img class="img-circle img-responsive" src="img/media/{{ .img }}" alt="">
+								</a>
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>{{ dateFormat "January 2, 2006" .date }}</h4>
+									<a href="{{ .link }}" target="_blank">
+										<h4 class="subheading">{{ .title }}</h4>
+									</a>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">{{ .description  | markdownify }}</p>
+								</div>
+							</div>
+						</li>
+						{{ end }}
+						<div class="my-button">
+							<br><br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>{{ with $.Site.Params.media.closeButton }}{{ . }}{{ end }}</button>
+						</div>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

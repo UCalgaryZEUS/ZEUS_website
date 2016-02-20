@@ -16,5 +16,10 @@
             </div>
             {{ end }}
         </div>
+		<div style="text-align: center">
+			<a href="{{ with .Site.Params.clients.donateLink }}{{ . }}{{ end }}" target="_blank">
+			<button type="button" class="btn btn-xl">{{ with .Site.Params.clients.donateButton }}{{ . }}{{ end }}</button>
+			</a>
+		</div>
     </div>
 </section>

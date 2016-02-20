@@ -3,8 +3,9 @@ baseurl = "http://nguyen-tran.github.io/"
 languageCode = "en-us"
 title = "Team ZEUS"
 theme = "agency"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+
+# Google Analytics tracking code
+googleAnalytics = "UA-73591613-1"
 
 [params]
 
@@ -68,83 +69,18 @@ googleAnalytics = ""
 
 
     # Media Section
-	# Need to figure out a way to make it easy to order elements...
 	[params.media]
 		title = "Media"
 		subtitle = "See Team ZEUS in the media and giving back to the community through education!"
+		numEvents = 4
+		closeButton = " Close Archive"
+		social = [
+			["fa-twitter", "https://twitter.com/UCalgaryZEUS"],
+			["fa-facebook", "https://www.facebook.com/ucalgaryteamzeus"],
+			["fa-youtube-play", "https://www.youtube.com/channel/UCSPSXnfeyn76ULiJbz-11aw"],
+			["fa-linkedin", "https://www.linkedin.com/company/team-zeus"]
+		]
 		
-		# The events will be listed from the top to the bottom.
-		# All images are stored under 'static/img/media'.
-		[[params.media.events]]
-			img = "11.jpg"
-			date = "December 2, 2014"
-			title = "Inside Motorcycles"
-			description = "It's impossible not to be inspired by Team Zeus and its University of Calgary-based electric racer project"
-			link = "http://suclubs.orgsync.com/org/teamzeus/article"
-			
-		[[params.media.events]]
-			img = "10.jpg"
-			date = "November 14, 2014"
-			title = "Third Academy"
-			description = "School visit to the Third Academy"
-			link = ""
-
-		[[params.media.events]]
-			img = "9.jpg"
-			date = "September 21, 2014"
-			title = "Metro Calgary"
-			description = "University of Calgary’s electric superbike turns heads at eMotoRacing event in Utah"
-			link = "http://metronews.ca/news/calgary/1161897/university-of-calgarys-electric-superbike-turns-heads-at-emotoracing-event-in-utah/"
-
-		[[params.media.events]]
-			img = "8.jpg"
-			date = "September 16, 2014"
-			title = "UToday"
-			description = "Team ZEUS unveils Zephyr superbike at national race in Utah"
-			link = "http://www.ucalgary.ca/utoday/issue/2014-09-16/team-zeus-unveils-zephyr-superbike-national-race-utah"
-
-		[[params.media.events]]
-			img = "7.jpg"
-			date = "September 11, 2014"
-			title = "Beakerhead"
-			description = ""
-			link = ""
-			
-		[[params.media.events]]
-			img = "5.jpg"
-			date = "May 8, 2014"
-			title = "Telus Spark"
-			description = "'Your Inner Engineer' Night"
-			link = ""
-			
-		[[params.media.events]]
-			img = "4.jpg"
-			date = "May 5, 2014"
-			title = "Huffington Post"
-			description = "The University of Calgary Club That Built an Electric Motorcycle"
-			link = "http://www.huffingtonpost.ca/david-dodge/electric-motorcycles_b_5268926.html"
-			
-		[[params.media.events]]
-			img = "3.jpg"
-			date = "Episode 74"
-			title = "Green Energy Futures"
-			description = "Meet Team Zeus - An electric motorbike racing team from the University of Calgary"
-			link = "http://www.greenenergyfutures.ca/episode/74-meet-team-zeus-electric-motorbike-racing-team-university-calgary"
-			
-		[[params.media.events]]
-			img = "2.jpg"
-			date = "March 20, 2014"
-			title = "Metro Calgary"
-			description = "‘Team Zeus’ building electric superbike at the University of Calgary"
-			link = "http://metronews.ca/news/calgary/979037/team-zeus-building-electric-superbike-at-the-university-of-calgary/"
-			
-		[[params.media.events]]
-			img = "1.jpg"
-			date = "March 20, 2014"
-			title = "The Gauntlet"
-			description = "Engineers build a racing motorcycle"
-			link = "http://www.archive.thegauntlet.ca/story/engineers-build-racing-motorcycle"
-
 
 	# Team Section
 	[params.team]
@@ -157,7 +93,8 @@ googleAnalytics = ""
 	[params.clients]
 		title = "Sponsors"
 		subtitle = "None of this would be possible without help from our generous sponsors. Thank you for supporting us!"
-		donateButton = "Support us"
+		donateButton = "Support us!"
+		donateLink = "#"
 		
 		[[params.clients.sponsors]]
 			logo = "1.jpg"
@@ -211,7 +148,7 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		title = "Get Involved"
-		subtitle  = "If you're interested in becoming a sponsor, or making a donation to Team Zeus... We'd love to hear from you! Please, contact us for more details."
+		subtitle  = "If you're interested in becoming a sponsor, or making a donation to Team ZEUS... We'd love to hear from you! Please, contact us for more details."
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
@@ -236,18 +173,6 @@ googleAnalytics = ""
 	# Footer section
 	[params.footer]
 		copyright = "Copyright (C) 2016 by Team ZEUS"
-
-		[[params.footer.social]]
-			icon = "fa-twitter"
-			link = "https://twitter.com/UCalgaryZEUS"
-
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "https://www.facebook.com/ucalgaryteamzeus"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "https://www.linkedin.com/company/team-zeus"
 
 		[[params.footer.quicklinks]]
 			text = "Schulich School of Engineering"

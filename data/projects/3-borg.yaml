@@ -18,12 +18,21 @@ description: >
   <tr><td><p class="table-field">Power Output</p></td>	<td><p class="table-value">7 kW avg, 18 kW peak</p></td></tr>
   
   </table>
-  <p>
+  <div style="text-align: left">
   <br>
-  After completing the mule, and after having come to the conclusion that we wanted to design our own motor for the coming race bike, we came across the Axel Borg Motor and decided to built it, in order to learn what building an electric motor is all about.  The design is based on the work of an engineer named Axel Borg (how cool a name is that?) out of Sweden.  We purchased a detailed ebook from his website and after some slight modifications, we set to work.
+  After completing the mule, and after having come to the conclusion that we wanted to design our own motor for the coming race bike, we 
+  came across the Axel Borg Motor and decided to built it, in order to learn what building an electric motor is all about.  The design is 
+  based on the work of an engineer named Axel Borg (how cool a name is that?) out of Sweden.  We purchased a detailed ebook from his 
+  website and after some slight modifications, we set to work.
   <br><br>
-  The initial design was an axial flux, AC, 3-phase, salient coil, permanent magnet motor that could be easily built from readily available materials, but still produce practical levels of performance.  The original motor, primarily out of wood in a backyard shop, was powerful enough to be installed in a small motorcycle and hit 90km/h.  Here are the initial promised specs, according to the book
+  The initial design was an axial flux, AC, 3-phase, salient coil, permanent magnet motor that could be easily built from readily available 
+  materials, but still produce practical levels of performance.  The original motor, primarily out of wood in a backyard shop, was powerful 
+  enough to be installed in a small motorcycle and hit 90km/h.  Here are the initial promised specs, according to the book
   <br><br>
-  Since we had access to a machine shop, we decided to use some more advanced materials, so we chose to go with aluminum for the rotors, due to lightweight, ease of machineability and its nonmagnetic nature, along with phenolic for for the stator.  We also chose to go with higher grade N48 Neodymium magnets, rather than the suggested N45 magnets, since the difference in price was small.  In addition to these being stronger materials than wood, we also no longer had to worry about warping and could hit much finer tolerances, allowing us to decrease the motor air-gaps, thus increasing our power density.  
-  </p>
+  Since we had access to a machine shop, we decided to use some more advanced materials, so we chose to go with aluminum for the rotors, 
+  due to lightweight, ease of machineability and its nonmagnetic nature, along with phenolic for for the stator.  We also chose to go with 
+  higher grade N48 Neodymium magnets, rather than the suggested N45 magnets, since the difference in price was small.  In addition to these 
+  being stronger materials than wood, we also no longer had to worry about warping and could hit much finer tolerances, allowing us to 
+  decrease the motor air-gaps, thus increasing our power density.  
+  </div>
 

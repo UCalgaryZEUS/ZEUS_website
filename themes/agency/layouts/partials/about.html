@@ -9,7 +9,7 @@
         </div>
 
         <div class="row text-center">
-			{{ range .Site.Data.about }}
+			{{ range sort .Site.Data.about "number" "asc" }}
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
