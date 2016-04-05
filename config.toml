@@ -2,7 +2,7 @@
 baseurl = "http://nguyen-tran.github.io/"
 languageCode = "en-us"
 title = "Team ZEUS"
-theme = "agency"
+theme = "main"
 
 # Google Analytics tracking code
 googleAnalytics = "UA-73591613-1"
